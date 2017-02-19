@@ -46,7 +46,7 @@ if __name__ == '__main__':
 
 FINAL_DICT = dict(zip(LINKS_LIST, LINKS_ARRAY))
 
-with open("answer.csv", 'w', newline='') as csv_file:
+with open("wikipedia_answers.csv", 'w', newline='') as csv_file:
     CSV_WRITER = csv.writer(csv_file)
     FIRST_STRING = ["wikipedia_page, website"]
     CSV_WRITER.writerow(FIRST_STRING)
